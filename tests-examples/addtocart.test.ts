@@ -27,3 +27,4 @@ test('Amazon search and cart validation', async ({ page }) => {
 
   console.log('Cart updated successfully!');
 });
+

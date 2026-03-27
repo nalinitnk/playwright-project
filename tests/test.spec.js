@@ -1,3 +1,4 @@
+import { test, expect } from '@playwright/test';
 const { chromium } = require('playwright');
 
 (async () => {
@@ -6,7 +7,7 @@ const { chromium } = require('playwright');
   const page = await browser.newPage();
 
   // Navigate to a website
-  await page.goto('www.google.com');
+  await page.goto('https://www.google.com/');
 
   // Take a screenshot
   await page.screenshot({ path: 'example.png' });
