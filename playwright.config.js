@@ -13,6 +13,10 @@ export default defineConfig({
     video: 'on',
     trace: 'on'
   },
+  reporter: [
+    ['list'], // Shows test progress in the Jenkins console
+    ['html', { outputFolder: 'playwright-report', open: 'never' }] // Generates the folder
+  ],
 
   projects: [
     {
