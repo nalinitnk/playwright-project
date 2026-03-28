@@ -8,5 +8,5 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["tests/**/*.ts"]
+  "include": ["tests/**/*.ts", "tests-examples/checkboxdemoqa.test.ts", "tests-examples/addtocart.test.ts"]
 }
